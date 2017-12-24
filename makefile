@@ -15,6 +15,8 @@ MAKE_MAIN_EXE_DIR   = if [ ! -d "$(MAIN_EXE)/" ]; then $(MKDIR_P) $(MAIN_EXE); f
 CCFLAGS             = -g -DEBUG
 CORE_FILE 			= core
 
+build-and-run: compile run
+
 all:compile
 
 compile:directory main

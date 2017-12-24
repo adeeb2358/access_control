@@ -1,7 +1,8 @@
 #include "commonHeader.h"
-
+#include "functions.h"
 
 int main(){
-	std::cout <<"hello world\n";
+	//getUserDetails();
+	real_effect_uid();
 	return 0;
 }	
